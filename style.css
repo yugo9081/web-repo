@@ -2,7 +2,7 @@ body {
   text-align: center;
   font-family: 'Cormorant', serif;
 }
-h1, h2, h4 {
+h1, h2, h3, h4, h5 {
  color: #C7524C;
  font-family: 'Cormorant', serif;
  font-weight: 700;
@@ -10,7 +10,7 @@ h1, h2, h4 {
 }
 #color-section{
   background-color: #FBAFAB;
-  border: 2px solid #7A322F;
+  border: 4px solid #7A322F;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 30px;
@@ -20,7 +20,7 @@ h1, h2, h4 {
   color:#FA675F;
 }
 hr {
-  border: 1px solid #7A322F;
+  border: 2px solid #7A322F;
   width: 50%;
 }
 .center {
