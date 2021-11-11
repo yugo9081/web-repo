@@ -6,12 +6,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div id="color-section">
+      <div id="flex-container">
     <img src="https://avatars.githubusercontent.com/u/54964332?v=4" class="center" alt="image">
+    <img src="https://i.natgeofe.com/n/3861de2a-04e6-45fd-aec8-02e7809f9d4e/02-cat-training-NationalGeographic_1484324_square.jpg" class="center2" alt="image2">
+  </div>
     <section class="first">
-    <h1>Sally Go</h1>
+    <h1 id="head">Sally Go</h1>
     <h4><em>She/Her/Hers</em></h4>
     <hr>
     <ul class="dot">
@@ -40,8 +44,21 @@
     </section>
   </div>
     <form action="https://yugo9081.github.io/web-repo/week2/">
-    <input type="submit" class="button" value="Go to Encyclopedia Page" />
+    <input type="submit" id="button" value="Go to Encyclopedia Page" />
   </form>
+  <script>
+
+       document.getElementById("button").addEventListener("click", clickMe);
+
+
+       function clickMe(){
+         alert("Thank you for your interest on Encyclopedia Page!");
+
+         document.getElementById("head").style.color = "white";
+         document.getElementById("head").style.backgroundColor = "red";
+       }
+   </script>
+
   </body>
 
 </html>
